@@ -1,0 +1,88 @@
+@font-face {
+    font-family: dynapuff;
+    src: url(fonts/DynaPuff-VariableFont_wdth\,wght.ttf);
+}
+
+:root {
+    --accent: #0088ff;
+    --background: #09090b;
+    --text: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: dynapuff;
+    font-size: 24px;
+    background: var(--background);
+    color: var(--text);
+    text-align: justify;
+}
+
+h1 {
+    font-family: dynapuff;
+    font-size: 6rem;
+    letter-spacing: 1px;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 40px;
+    align-items: flex-start;
+}
+
+.project iframe {
+    width: 60%;
+    height: 700px;
+    margin: 10px 10px 10px 10px;
+    border: none;
+    border-radius: 24px;
+}
+
+.projectText {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0px 10px 10px 10px;
+}
+
+#clueBtn {
+    font-family: dynapuff;
+    font-size: 20px;
+    border: none;
+    border-radius: 48px;
+    padding: 10px;
+    margin: auto;
+    background-color: var(--accent);
+    color: #ffffff;
+    width: 100px;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+#clueBtn:hover {
+    background-color: #1d19e9;
+}
+
+#clueText {
+    font-size: 18px;
+}
+
+li {
+    margin-left: 24px;
+}
+
+a {
+    color: var(--accent);
+}
+
+img {
+    border-radius: 24px;
+}
+
+#chess {
+    width: auto;
+}

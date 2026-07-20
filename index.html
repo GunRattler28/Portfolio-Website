@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>Welcome to the Website</h1>
+    <div class="project">
+        <iframe id="maracoose" src="puzzle/index.html"></iframe>
+        <div class="projectText">
+            <h2>Maracoose</h2>
+            <p>This was my first major project and I'm really happy with how it turned out. I advise using the internet to help you out (not AI though). It has 5 sections which are doable (the sixth and final section includes something irl). Be warned that since I made it for me and my friends it has some pretty random stuff including things from games and music. It took me a few months to make as I didn't have much experience with html,  js or css at the time.</p><br><br>
+            <p>Go to <a href="https://gunrattler28.github.io/Puzzle/">the website</a> to view in full screen</p>
+            <button type="submit" id="clueBtn">Clue</button>
+            <p id="clueText"></p>
+        </div>
+    </div>
+    <div class="project">
+        <div class="projectText">
+            <h2>Backspace Beta</h2>
+            <p>Backspace Beta is a movie website that uses the Vidking API. I started this project to learn how to use APIs and had relatively low experience with html,  js or css. It was very useful in helping me work with APIs and later helped me when I needed to make an API. The website looks pretty bad because I spent very little time on the css as functionality was my only focus. You should use an adblocker whilst using the website on a desktop / laptop. I don't recommend trying to watch on a phone as there are lots of ads which open page when you touch the screen. I tried to remove ads by using sandbox (with allow-scripts) however the API needed sandbox to run. I also tried to remap window.open() however it did not work. I'm not 100% certain if it still works as it has been a while since I made it and the API might have stopped working. Was fun to make though.</p><br>
+            <p>Go to <a href="https://gunrattler28.github.io/Backspace-Beta/">the actual website</a> to be able to watch in fullscreen</p>
+        </div>
+        <iframe id="Backspace-Beta" src="Backspace Beta/index.html"></iframe>
+    </div>
+    <div class="project">
+        <img src="chess.png">
+        <div class="projectText" id="chess">
+            <h2>Chess Bot</h2>
+            <p>I am currently making a chess bot. As of writing this I have drawn the board, added most legality (but nothing about checks and checkmates), movement, captures, circles to show where you can move and make sure the correct colour plays. I am using the tkinter library to help me make this. To store the board I use bitboards as they are much more effective than storing in an array (as I learnt <a href="https://www.youtube.com/watch?v=n5vV4u-nKtw">in this amazing video</a>).</p><br>
+            <p>My next goals:</p>
+            <li>Check / Checkmate logic</li>
+            <li>Add better piece textures</li>
+            <li>Make the circles translucent by using an image instead</li>
+            <li>Allowing castling</li>
+            <li>Adding en passant</li>
+            <li>Allowing pawn promotions</li>
+            <p>Go to <a href="https://stardance.hackclub.com/projects/36348">the stardance page</a> to see the latest features.</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
